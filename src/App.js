@@ -49,7 +49,7 @@ function App() {
   return (
     <div className="container mt-2">
       <div>
-        <Header />
+        <Header count={count} />
         <hr />
         <HeaderMemo count={count < 5 ? 0 : count} />
       </div>
